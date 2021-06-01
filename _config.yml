@@ -1,2 +1,7 @@
 theme: jekyll-theme-hacker
 title: null
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
